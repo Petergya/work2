@@ -1,7 +1,8 @@
+// @typescript-eslint/no-unused-vars
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
-import HeaderFooter from "@/components/layout/layout";
+
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/component/Innovate";
 
