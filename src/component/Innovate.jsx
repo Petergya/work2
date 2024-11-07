@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Innovate() {
   return (
-    <div className="mt-32 justify-center flex-col text-center px-20 mx-auto">
+    <div className="mt-32 justify-center flex-col text-center lg:px-20 px-4 mx-auto">
       <div className="mb-6">
         <h1 className="text-[#4D4D4D] text-[18px]">
           Empowering Your Business Success

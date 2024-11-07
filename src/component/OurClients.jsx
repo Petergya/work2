@@ -25,7 +25,7 @@ export default function ItemList() {
   ];
 
   return (
-    <div className="flex  lg:flex-row flex-col items-center  px-20 mx-auto mt-10">
+    <div className="flex  lg:flex-row flex-col items-center lg:px-20  px-4  mx-auto mt-10">
       {items.map((item) => (
         <div key={item.id} className="flex flex-col items-center ">
           <Image src={item.image} alt={item.text} width={500} height={500}  className="h-20 w-20"/>
