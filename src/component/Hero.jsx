@@ -1,16 +1,16 @@
-import HeaderFooter from "@/components/layout/layout"; 
+
 
 import Image from "next/image";
 
 export default function Hero() {
   return (
     
-      <div className="w-full h-full flex flex-col">
+      <div className="w-full h-full flex flex-col bg-yellow-800">
         
         <div className="w-full flex relative bg-white">
           
         
-          <div className="w-full px-40 flex gap-10 flex-col justify-center items-center h-[1000px] bg-[#4961a8] relative">
+          <div className="w-full px-40 flex gap-10 flex-col justify-center items-center h-[1000px] bg-[#172755] ">
             
             <h3 className="w-fit text-[48px] text-center font-semibold text-[#F2F2F2] mt-28 ">
               Empowering Your Business with Cutting-Edge Solutions
@@ -66,10 +66,10 @@ export default function Hero() {
 //               <h3 className="w-fit text-[60px] leading-[86px] font-semibold text-white">Empowering Your Business with Cutting- <br /><span className="flex justify-center">Edge Solutions</span></h3>
 //               <p className="text-xl items-center text-white px-48 mt-6">Join us in transforming the way you operate for better efficiency and growth.</p>
 //               <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-//                <button className="border border-gray-300 py-3 px-6 rounded-md focus:outline-none">
+//                <button className="border border-gray-800 py-4 w-96 px-9 rounded-md focus:outline-none">
 //                 Enter Your Email Address
 //               </button>
-//               <button className="bg-[#EF2AB2] text-white py-3 px-6 rounded-md focus:outline-none">
+//               <button className="bg-[#EF2AB2] text-white py-4 px-6 rounded-md focus:outline-none">
 //              Get Started Today
 //             </button>
 //           </div>
@@ -81,5 +81,3 @@ export default function Hero() {
 //         </div>
 //       </div>
 //     </HeaderFooter>
-//   );
-// }
