@@ -1,24 +1,19 @@
-
-
-
 import Image from "next/image";
 
 export default function Hero() {
   return (
     <div className="w-full h-full md:pt-24  flex  flex-col bg-[#172755]">
       <div className="w-full flex flex-col items-center px-6 md:px-20 lg:px-40 py-10 bg-[#172755] text-white">
-        
-      
         <div className="w-full text-center flex flex-col gap-4 max-w-3xl">
           <h3 className="text-2xl md:text-3xl lg:text-4xl font-semibold text-[#F2F2F2]">
             Empowering Your Business with Cutting-Edge Solutions
           </h3>
           <p className="text-sm md:text-base lg:text-lg text-[#F2F2F2]">
-            Join us in transforming the way you operate for better efficiency and growth.
+            Join us in transforming the way you operate for better efficiency
+            and growth.
           </p>
         </div>
-        
-       
+
         <div className="flex flex-col md:flex-row justify-center items-center gap-4 mt-6">
           <input
             type="email"
@@ -30,7 +25,6 @@ export default function Hero() {
           </button>
         </div>
 
-     
         <div className="flex justify-center items-center mt-6 w-full max-w-4xl">
           <Image
             src="/images/hero.png"
@@ -40,7 +34,6 @@ export default function Hero() {
             className="object-cover rounded-lg"
           />
         </div>
-
       </div>
     </div>
   );

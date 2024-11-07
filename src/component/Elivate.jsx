@@ -1,6 +1,3 @@
-
-
-
 import Image from "next/image";
 
 export default function Elevate() {
@@ -9,7 +6,8 @@ export default function Elevate() {
       <div className="lg:w-2/3 w-full px-4 lg:px-0 py-6 lg:mt-12">
         <div className="mb-6 text-center lg:text-left">
           <h1 className="text-[30px] font-semibold text-gray-800">
-            Elevate Your Business with Our <br className="hidden lg:block" /> Expertise
+            Elevate Your Business with Our <br className="hidden lg:block" />{" "}
+            Expertise
           </h1>
           <p className="text-[18px] text-gray-600 mt-2">
             Discover innovative solutions tailored to your business needs.

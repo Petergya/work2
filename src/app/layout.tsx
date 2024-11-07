@@ -1,10 +1,9 @@
-// @typescript-eslint/no-unused-vars
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 
 import Navbar from "@/components/layout/Navbar";
-import Footer from  "@/components/layout/Footer"
+import Footer from "@/components/layout/Footer";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -32,9 +31,9 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white`}
       >
-           <Navbar />
-          {children}
-          <Footer />
+        <Navbar />
+        {children}
+        <Footer />
       </body>
     </html>
   );

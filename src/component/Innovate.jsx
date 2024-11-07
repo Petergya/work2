@@ -17,7 +17,7 @@ export default function Innovate() {
           alt="Hero Image"
           width={2000}
           height={1000}
-          className="object-contain" // corrected typo
+          className="object-contain"
         />
       </div>
     </div>
