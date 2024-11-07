@@ -1,28 +1,25 @@
 import Image from "next/image";
 
-export default function Footer(){
-
-    return(
-        <div className="mt-32">
-            <div>
-            <h1>
-            Empowering Your Business Success
-            </h1>
-        <h1>Innovative Solutions for Modern Enterprises</h1>
-
-            </div>
-
-            <div className="w-full lg:w-1/2 flex justify-center items-center">
+export default function Innovate() {
+  return (
+    <div className="mt-32 justify-center flex-col text-center px-20 mx-auto">
+      <div className="mb-6">
+        <h1 className="text-[#4D4D4D] text-[18px]">
+          Empowering Your Business Success
+        </h1>
+        <h1 className="text-[#000000] text-[30px]">
+          Innovative Solutions for Modern Enterprises
+        </h1>
+      </div>
+      <div className="w-full justify-center flex">
         <Image
-          src="/images/elivate.png"
+          src="/images/image1.png"
           alt="Hero Image"
-          width={500}
-          height={405}
-          className="object-cover"
+          width={2000}
+          height={1000}
+          className="object-contain" // corrected typo
         />
       </div>
-            
-
-        </div>
-    )
+    </div>
+  );
 }
